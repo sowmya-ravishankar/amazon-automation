@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Assignment Scenarios">
+    <parameter name = "browser" value="${browser}"/>
+    <parameter name = "testDataFile" value="${testDataFile}"/>
+    <listeners>
+        <listener class-name="listeners.TestListener" />
+    </listeners>
+
+    <test name="Assignment Scenario">
+        <classes>
+            <class name="in.assignment.test.AddToCart"/>
+        </classes>
+    </test>
+</suite>

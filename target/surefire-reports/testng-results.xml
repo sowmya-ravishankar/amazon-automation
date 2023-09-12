@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-12T08:23:52 IST" name="Assignment Scenarios" finished-at="2023-09-12T08:24:43 IST" duration-ms="50983">
+    <groups>
+    </groups>
+    <test started-at="2023-09-12T08:23:52 IST" name="Assignment Scenario" finished-at="2023-09-12T08:24:43 IST" duration-ms="50983">
+      <class name="in.assignment.test.AddToCart">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:23:49 IST" name="beforeSuite" finished-at="2023-09-12T08:23:52 IST" duration-ms="2413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUpTestData(java.lang.String)[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:23:52 IST" name="setUpTestData" finished-at="2023-09-12T08:23:52 IST" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testData1.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestData -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:23:52 IST" name="setUp" finished-at="2023-09-12T08:23:57 IST" duration-ms="4992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:23:57 IST" name="nameBefore" finished-at="2023-09-12T08:23:57 IST" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void in.assignment.test.AddToCart.searchProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method signature="searchProduct()[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:23:57 IST" name="searchProduct" finished-at="2023-09-12T08:23:59 IST" duration-ms="2234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:23:59 IST" name="nameBefore" finished-at="2023-09-12T08:23:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void in.assignment.test.AddToCart.verifyPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:23:59 IST" name="verifyPageTitle" finished-at="2023-09-12T08:23:59 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method signature="filterProductAndAddToCart(java.lang.String)[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:23:59 IST" name="filterProductAndAddToCart" data-provider="BrandProvider" finished-at="2023-09-12T08:24:16 IST" depends-on-methods="in.assignment.test.AddToCart.searchProduct" duration-ms="16450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Noise]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterProductAndAddToCart -->
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:23:59 IST" name="nameBefore" finished-at="2023-09-12T08:23:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void in.assignment.test.AddToCart.filterProductAndAddToCart(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method signature="filterProductAndAddToCart(java.lang.String)[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:24:16 IST" name="filterProductAndAddToCart" data-provider="BrandProvider" finished-at="2023-09-12T08:24:30 IST" depends-on-methods="in.assignment.test.AddToCart.searchProduct" duration-ms="13751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fire-Boltt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterProductAndAddToCart -->
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:24:16 IST" name="nameBefore" finished-at="2023-09-12T08:24:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void in.assignment.test.AddToCart.filterProductAndAddToCart(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method signature="filterProductAndAddToCart(java.lang.String)[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:24:30 IST" name="filterProductAndAddToCart" data-provider="BrandProvider" finished-at="2023-09-12T08:24:43 IST" depends-on-methods="in.assignment.test.AddToCart.searchProduct" duration-ms="13080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[boAt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterProductAndAddToCart -->
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:24:30 IST" name="nameBefore" finished-at="2023-09-12T08:24:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void in.assignment.test.AddToCart.filterProductAndAddToCart(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:in.assignment.test.AddToCart@2a798d51]" started-at="2023-09-12T08:24:43 IST" name="afterSuite" finished-at="2023-09-12T08:24:43 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- in.assignment.test.AddToCart -->
+    </test> <!-- Assignment Scenario -->
+  </suite> <!-- Assignment Scenarios -->
+</testng-results>
